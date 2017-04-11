@@ -1,0 +1,29 @@
+{
+  "name": "bitmark-app",
+  "version": "0.0.14",
+  "description": "standalone bitmark app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-packager . bitmark-app --out=pack --overwrite --ignore=client/node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-bitmark/bitmark-app.git"
+  },
+  "keywords": [],
+  "author": "Melvin Carvalho <melvincarvalho@gmail.com> (https://melvincarvalho.com/#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/project-bitmark/bitmark-app/issues"
+  },
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.6.0"
+  },
+  "homepage": "https://github.com/project-bitmark/bitmark-app#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
